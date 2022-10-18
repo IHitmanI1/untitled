@@ -30,13 +30,13 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   void launchSmolgu() async {
-    final Uri urll = Uri(scheme: "https", host: "github.com", path:"/IHitmanI1/untitled");
+    final Uri urll = Uri(scheme: "https", host: "smolgu.ru");
     if (!await launchUrl(urll, mode: LaunchMode.externalApplication)) {
       throw "Error";
     }
   }
   void launchGit() async {
-    final Uri urll = Uri(scheme: "https", host: "smolgu.ru");
+    final Uri urll = Uri(scheme: "https", host: "github.com", path:"/IHitmanI1/untitled");
     if (!await launchUrl(urll, mode: LaunchMode.externalApplication)) {
       throw "Error";
     }
