@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
               )
           ),
           Padding(
-              padding: EdgeInsets.fromLTRB(0,42,42,0),
+              padding: EdgeInsets.fromLTRB(0,20,5,0),
               child: Align(
                 alignment: Alignment.topRight,
                 child: OutlinedButton(onPressed: launchSmolgu, child: const Text('перейти на сайт СмолГУ!')),
